@@ -4,6 +4,12 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Clase para probar y tener acumuladas varias expresiones regulares de alumnos.
+ * Podeis probar las vuestras y dejarlas comentadas con lo que habeis conseguido.
+ * Si realizais mejoras a las que existen, indicadlo, si tienen alguna carencia, también y los demás intentaremos
+ * mejorarlas.
+ */
 public class TestRegularExpressions {
 
     static Scanner sc = new Scanner(System.in);
@@ -11,6 +17,7 @@ public class TestRegularExpressions {
 
         sc.useDelimiter("\\n");
 
+        // TODO - Dentro de cada método id guardando vuestras propias REGEX , podeis ir comentando otras.
         compruebaNombre();
         compruebaEmail();
         compruebaIP();
