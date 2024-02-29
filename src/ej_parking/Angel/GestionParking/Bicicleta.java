@@ -1,0 +1,15 @@
+package ej_parking.Angel.GestionParking;
+
+public class Bicicleta extends VehiculoNoMotor{
+    protected int numeroRuedas;
+
+    public Bicicleta(String marca, String modelo, String propietario, int numeroRuedas) {
+        super(marca, modelo, propietario);
+        this.numeroRuedas = numeroRuedas;
+    }
+    @Override
+    protected String mostrarDatos() {
+
+        return "Tipo: Bicicleta" + "\nMarca: " + marca + "\nModelo: " + modelo +"\nNº de Ruedas: " + numeroRuedas;
+    }
+}
